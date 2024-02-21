@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: url('./images/hero-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow-y: hidden;
+}
+.navbar{
+    padding: 5px 20px;
+       
+}
+.reserve{
+    padding: 5px 20px; 
+    background-color: orange;
+    color: white;
+    border: none;
+    width: fit-content;
+    border-radius: 3px;
+}
+.container .navbar-brand{
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 255, 255);
+}
+.collapse ul{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.collapse .nav-link{
+    color: white;
+    font-size: 20px;
+}
+
+
+
+.maincontent{
+     /* display: flex; 
+     position: relative;  */
+}
+.contenttext{
+    width: 50%;
+    margin-top: 12%;
+    margin-left: 12%;
+}
+.contenttext h4{
+    color: orange;
+    font-family: "Shadows Into Light", cursive;
+    font-size: 30px;
+}
+.contenttext h1{
+    width: 85%;
+    color: white;
+    font-size: 60px;
+    font-weight: 900;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.contenttext p{
+    width: 65%;
+    color: rgb(170, 170, 170);
+    font-size: 20px;
+}
+.contenttext button{
+    padding: 10px 20px;
+    border: none;
+    background-color: orange;
+    color: white;
+    font-weight: 700;
+}
+.contentimg{
+    background-image: url('./images/hero-bg-shape.png');
+    height: 86vh;
+    width: 50%;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: 170% 100%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+
+}
+#mixfruit{
+    width: 800px;
+    height: 700px;
+    position: absolute;
+    left: -50px;
+    bottom: -80px;
+    
+}
+#burger{
+    position: absolute;
+    top: 8%;
+    left: 0;
+    width: 650px;
+}
+@media only screen and (max-width:992px) {
+    .navbar{
+        justify-content: space-around;
+    }
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.maincards{
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(243, 243, 243);
+   padding-top: 10%;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    padding-left: 10%;
+    padding-bottom: 10%;
+    
+}
+.maxicanpizza{
+    width: 22%;
+    height: fit-content;
+    background-color: white;
+    padding: 35px 0px;
+}
+.maxicanpizza:hover{
+    background-color:rgb(247, 163, 6)
+}
+.maxicanpizza i{
+    color: orange;
+    margin-bottom: 35px;
+    font-size: 60px;
+}
+.maxicanpizza h1{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    font-family: sans-serif;
+    margin-bottom: 30px;
+}
+.maxicanpizza img{
+    width: 80%;
+}
+.maxicanpizza p{
+    padding: 0px 5px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    color: rgb(144, 144, 144);
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.maxicanpizza:hover i,.maxicanpizza:hover h1,.maxicanpizza:hover p{
+    color: white;
+}
+.bgmain{
+    width: 100%;
+    height: 85vh;
+    background-image: url('./images/hero-bg.jpg');
+    display: flex;
+    justify-content: space-around;
+
+}
+.maincontent1{
+    padding: 10% 70px;
+}
+
+.maincontent1 h2{
+    font-size: 45px;
+    width: 90%;
+    color: white;
+    font-weight: 700;
+}
+
+.maincontent1 p{
+    width: 85%;
+    font-family:  sans-serif;
+    font-size: 18px;
+    color: white;
+}
+.maincontent1 button{
+    padding: 10px 30px;
+    background-color: orange;
+    border: none;
+    color: white;
+    font-weight: 600;
+}
+
+
+
+.contentimage1 img{
+    width: 800px;
+    padding: 5% 30px; 
+}
+.Foods{
+    background-color: rgb(233, 233, 233);
+    padding: 10%;
+}
+.Foods .para{
+    font-size: 18px;
+    text-align: center;
+    color: rgb(242, 42, 42);
+}
+.Foods h2{
+    font-size: 35px;
+    font-family:  sans-serif;
+    font-weight: 800;
+    text-align: center;
+}
+.Foods span{
+    display: inline-block;
+    color: orange
+}
+.Foods p{
+    text-align: center;
+    font-size: 15px;
+    color: rgb(156, 156, 156);
+    width: 26%;
+    margin: auto;
+}
+.cardmain{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding: 5%;
+}
+.cardimg{
+    width: 365px;
+    height: fit-content;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.cardimg img{
+    width: 100%;
+    height: 40%;
+}
+
+.cardtext{
+    padding: 20px;
+    
+}
+.cardtext span{
+   padding: 10px;
+   
+}
+.cardtext .card-title{
+    font-weight: 700;
+}
+
+.cardtext h3{
+    margin-top: 10px;
+    font-size: 24px;
+    margin-bottom: 10px;
+    
+}
+.cardtext p{
+    width: 80%;
+    font-size: 20px;
+    margin-left: 0px;
+}
+.cardtext .readmore{
+    color: black;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.content p{
+    font-size: 15px;
+    color: #666;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.button{
+    display: inline-block;
+    background-image: linear-gradient(to bottom right, rgb(19, 87, 247), rgb(118, 148, 237));
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+    padding: 4px 8px;
+}
+.button1{
+    display: inline-block;
+    background-image: linear-gradient(to bottom right, rgb(245, 226, 13), rgb(240, 156, 29));
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+    padding: 4px 8px;
+}
+
+.button2{
+    display: inline-block;
+    background-image: linear-gradient(to bottom right, rgb(246, 36, 36), rgb(226, 124, 124));
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+    padding: 4px 8px;
+}
+
+.content1{
+    border-radius: 20px;
+    padding: 0 20px ;
+    display: flex;   
+    
+}
+
+ .content1 img{
+    margin-top: 12px;
+    width: 50px;
+    border-radius: 25px;
+
+} 
+
+.content1 .img1{
+    margin-top: 12px;
+    width: 60px;
+    border-radius: 25px;
+    
+}
+
+.content1 .img2{
+    margin-top: 12px;
+    width: 62px;
+    border-radius: 35px;
+    
+}
+
+.devid{
+    margin-left: 8px;
+    margin-top: 30px;
+        
+}
+
+
